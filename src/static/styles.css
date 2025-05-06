@@ -154,3 +154,32 @@ footer {
   padding: 20px;
   color: #666;
 }
+
+.participant {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f0f4ff;
+  margin-bottom: 10px;
+}
+
+.participant img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.participant .name {
+  font-size: 16px;
+  font-weight: bold;
+  color: #1a237e;
+}
+
+.participant .role {
+  font-size: 14px;
+  color: #555;
+}
